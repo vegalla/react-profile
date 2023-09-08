@@ -1,0 +1,45 @@
+.main {
+    /* border: dotted red; */
+
+    .profile {
+        display: inline-flex;
+        /* width: */
+
+        .description {
+            /* border: dotted red; */
+            width: 50%;
+
+            /* wi */
+            text-align: left;
+
+            h1 {
+                /* border: dotted red; */
+
+                margin: 0px;
+            }
+
+            h2 {
+                /* border: dotted red; */
+
+                margin: 0px;
+            }
+
+            h3 {
+                /* border: dotted red; */
+
+                margin: 0px;
+            }
+
+        }
+
+        .picture {
+            /* border: dotted red; */
+
+            display: inline-block;
+
+            img {
+                width: 300px;
+            }
+        }
+    }
+}

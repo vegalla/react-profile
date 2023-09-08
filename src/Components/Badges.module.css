@@ -1,0 +1,14 @@
+.main {
+    /* border: dotted red; */
+
+    .badge {
+        /* border: dotted red; */
+
+        display: inline-block;
+
+        img {
+            width: 80px;
+        }
+
+    }
+}

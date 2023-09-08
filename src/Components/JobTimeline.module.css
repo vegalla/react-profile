@@ -1,0 +1,104 @@
+.block {
+    /* border: dotted red; */
+
+    width: 100%;
+    margin: auto;
+
+    .header1 {
+        /* border: dotted red; */
+
+        /* height: 40px; */
+
+        h1 {
+            /* border: dotted red; */
+            display: inline-block;
+            text-align: left;
+            width: 60%;
+
+            margin: 0px;
+
+            font-size: 1.5rem;
+        }
+
+        p {
+            /* border: dotted red; */
+            display: inline-block;
+            text-align: right;
+            width: 25%;
+            
+            margin: 0px;
+        }
+    }
+
+    .header2 {
+        /* border: dotted red; */
+
+        /* height: 40px; */
+
+        h2 {
+            /* border: dotted red; */
+            display: inline-block;
+            text-align: left;
+            width: 60%;
+
+            margin: 0px;
+
+            font-size: 1.2rem;
+        }
+
+        p {
+            /* border: dotted red; */
+            display: inline-block;
+            text-align: right;
+            width: 25%;
+
+            margin: 0px;
+        }
+    }
+
+    .bullets {
+        /* border: dotted red; */
+
+        display: inline-block;
+        width: 85%;
+
+        ul {
+            /* border: dotted red; */
+
+            margin: 0px;
+
+            li {
+                /* border: dotted red; */
+
+                text-align: left;
+            }
+        }
+
+    }
+
+    .additional {
+        /* border: dotted red; */
+        /* height: 40px; */ 
+
+        h3 {
+            /* border: dotted red; */
+            display: inline-block;
+            text-align: left;
+            width: 60%;
+
+            margin: 0px;
+
+            font-size: 1rem;
+
+        }
+
+        p {
+            /* border: dotted red; */
+            display: inline-block;
+            text-align: right;
+            width: 25%;
+
+            margin: 0px;
+        }
+    }
+}
