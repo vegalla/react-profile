@@ -1,34 +1,17 @@
 .App {
-  border: dotted red;
+  /* border: dotted red; */
 
   text-align: center;
   max-width: 11in;
   margin: auto;
+  padding-top: 1cm;
+
+  box-shadow: 2px 2px 2px 2px  #d0d7e0;
+
+  /* font-family: WorkSans; */
 }
 
-.header {
-  border: dotted red;
-
-  background-color: #282c34;
-  min-height: 21px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.introduction {
-  border: dotted red;
-
-  min-height: 50vh;
-
-  .description {
-    border: dotted red;
-  }
-
-  .picture {
-    border: dotted red;
-  }
+@font-face {
+  font-family: WorkSans;
+  src: url(./Assets/Fonts/WorkSans-Regular.woff2)
 }

@@ -1,0 +1,13 @@
+.block {
+    position: absolute;
+    z-index: 50;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    width: max-content;
+    color: #ffffff;
+    background-color: #1F2937;
+}
+
+.hidden {
+    display: none;
+}

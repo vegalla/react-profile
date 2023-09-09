@@ -4,10 +4,12 @@
     .profile {
         display: inline-flex;
         /* width: */
+        /* margin: auto; */
+
+        margin-bottom: 13px;
 
         .description {
             /* border: dotted red; */
-            width: 50%;
 
             /* wi */
             text-align: left;
@@ -38,8 +40,24 @@
             display: inline-block;
 
             img {
-                width: 300px;
+                margin-left: 21px;
+                max-width: 300px;
+
+                border-radius: 10px;
+
+                box-shadow: 5px 5px 5px #778ba5;
             }
         }
+
+    }
+
+    .summary {
+        /* border: dotted red; */
+
+        margin: auto;
+        padding: 5px;
+        width: 80%;
+
+        background-color: rgba(0,0,0,0.2);
     }
 }
