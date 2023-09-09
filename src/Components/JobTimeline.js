@@ -25,7 +25,7 @@ const JobDisplay = props => {
             {props.additional_positions &&
             <div className={styles.additional}>
                 {props.additional_positions.map(pos => (
-                    <span>
+                    <span key={pos.position}>
                         <h3>{pos.position}</h3>
                         <p>{pos.startDate} - {pos.endDate}</p>
                     </span>

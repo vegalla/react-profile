@@ -14,7 +14,7 @@ const Intro = () => {
                 <ul>
                     <li>AWS Cloud Development</li>
                     <li>Machine Learning with Python</li>
-                    <li>Databricks Data Engineering</li>
+                    {/* <li>Databricks Data Engineering</li> */}
                     <li>Statistical Analysis in SAS/R/Python</li>
                     <li>Natural Langugage Processing | Internet-of-Things</li>
                 </ul>

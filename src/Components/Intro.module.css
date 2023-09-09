@@ -2,34 +2,41 @@
     /* border: dotted red; */
 
     .profile {
-        display: inline-flex;
+        /* background-color: yellow; */
+
+        display: flex;
         /* width: */
         /* margin: auto; */
 
+        justify-content: space-evenly;
+        /* align-items: left; */
         margin-bottom: 13px;
+        flex-wrap: wrap;
 
         .description {
             /* border: dotted red; */
 
-            /* wi */
             text-align: left;
 
             h1 {
                 /* border: dotted red; */
 
                 margin: 0px;
+                font-size: 1.8em;
             }
 
             h2 {
                 /* border: dotted red; */
 
                 margin: 0px;
+                font-size: 1.1em;
             }
 
             h3 {
                 /* border: dotted red; */
 
                 margin: 0px;
+                font-size: 1.1em;
             }
 
         }
@@ -38,9 +45,10 @@
             /* border: dotted red; */
 
             display: inline-block;
+            margin: 13px;
 
             img {
-                margin-left: 21px;
+                /* margin-left: 21px; */
                 max-width: 300px;
 
                 border-radius: 10px;
@@ -55,9 +63,35 @@
         /* border: dotted red; */
 
         margin: auto;
-        padding: 5px;
+        padding: 13px;
         width: 80%;
 
-        background-color: rgba(0,0,0,0.2);
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .picture {
+        order: 1;
+    }
+
+    .description {
+        order: 2;
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
     }
 }

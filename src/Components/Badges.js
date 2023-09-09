@@ -48,7 +48,7 @@ const Badges = () => {
     return (
         <div className={styles.main}>
             {BADGES.map(badge => (
-                <span className={styles.badge}>
+                <span key={badge.validation} className={styles.badge}>
                     <Tooltip tooltipContent={Explainer(badge.issueDate, badge.validation)}>
                         <img src={badge.image} alt={badge.al} />
                     </Tooltip>

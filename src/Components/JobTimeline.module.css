@@ -1,16 +1,28 @@
 .block {
     /* border: dotted red; */
+    /* background-color: yellow; */
 
     width: 100%;
     margin: auto;
 
     .main {
         margin-bottom: 13px;
+        /* display: flex; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 13px;
+        flex-wrap: wrap;
 
         .header1 {
             /* border: dotted red; */
 
             /* height: 40px; */
+            flex: 1 0 55%;
+            /* display:flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap:wrap; */
 
             h1 {
                 /* border: dotted red; */
@@ -35,6 +47,7 @@
 
         .header2 {
             /* border: dotted red; */
+            flex: 1 0 55%;
 
             /* height: 40px; */
 
@@ -82,6 +95,7 @@
         .additional {
             /* border: dotted red; */
             /* height: 40px; */
+            flex: 1 0 55%;
 
             h3 {
                 /* border: dotted red; */
