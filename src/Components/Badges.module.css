@@ -1,13 +1,15 @@
 .main {
     /* border: dotted red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .badge {
         /* border: dotted red; */
-
-        display: inline-block;
-
+        
         margin: 13px;
         img {
+            /* border: dotted red; */
             width: 80px;
         }
 

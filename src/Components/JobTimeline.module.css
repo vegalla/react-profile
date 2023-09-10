@@ -1,11 +1,16 @@
 .block {
     /* border: dotted red; */
-    /* background-color: yellow; */
+    /* background-color: red; */
 
-    width: 100%;
+    width: 85%;
     margin: auto;
 
+    /* display: flex; */
+    /* justify-content: center-around; */
     .main {
+        /* background-color: yellow; */
+
+        /* width: 85%; */
         margin-bottom: 13px;
         /* display: flex; */
         display: flex;
@@ -14,69 +19,43 @@
         margin-bottom: 13px;
         flex-wrap: wrap;
 
-        .header1 {
+        .header1--h1 {
             /* border: dotted red; */
+            font-size: 2em;
+            font-weight: bold;
 
-            /* height: 40px; */
-            flex: 1 0 55%;
-            /* display:flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap:wrap; */
-
-            h1 {
-                /* border: dotted red; */
-                display: inline-block;
-                text-align: left;
-                width: 60%;
-
-                margin: 0px;
-
-                font-size: 1.5rem;
-            }
-
-            p {
-                /* border: dotted red; */
-                display: inline-block;
-                text-align: right;
-                width: 25%;
-
-                margin: 0px;
-            }
+            flex: 1 0 75%;
+            text-align: left;
         }
 
-        .header2 {
+        .header1--p {
             /* border: dotted red; */
-            flex: 1 0 55%;
 
-            /* height: 40px; */
+            flex: 1 0 20%;
+            text-align: right;
+        }
 
-            h2 {
-                /* border: dotted red; */
-                display: inline-block;
-                text-align: left;
-                width: 60%;
+        .header2--h2 {
+            /* border: dotted red; */
 
-                margin: 0px;
+            font-size: 1.5em;
+            font-weight: bold;
+            flex: 1 0 75%;
+            text-align: left;
+        }
 
-                font-size: 1.2rem;
-            }
+        .header2--p {
+            /* border: dotted red; */
 
-            p {
-                /* border: dotted red; */
-                display: inline-block;
-                text-align: right;
-                width: 25%;
-
-                margin: 0px;
-            }
+            flex: 1 0 20%;
+            text-align: right;
         }
 
         .bullets {
             /* border: dotted red; */
 
             display: inline-block;
-            width: 85%;
+            width: 100%;
 
             ul {
                 /* border: dotted red; */
@@ -92,31 +71,70 @@
 
         }
 
+
         .additional {
-            /* border: dotted red; */
-            /* height: 40px; */
+
             flex: 1 0 55%;
 
-            h3 {
-                /* border: dotted red; */
-                display: inline-block;
-                text-align: left;
-                width: 60%;
+            .n--position {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
 
-                margin: 0px;
+                .header3--h3 {
+                    /* border: dotted red; */
 
-                font-size: 1rem;
+                    font-size: 1.2em;
+                    font-weight: bold;
+                    flex: 1 0 75%;
+                    text-align: left;
+                }
 
-            }
-
-            p {
-                /* border: dotted red; */
-                display: inline-block;
-                text-align: right;
-                width: 25%;
-
-                margin: 0px;
+                .header3--p {
+                    /* border: dotted red; */
+                    flex: 1 0 20%;
+                    text-align: right;
+                }
             }
         }
     }
+}
+
+@media screen and (max-width: 531px) {
+
+    .main {
+        .header1--h1 {
+            /* order: 2; */
+            flex-basis: 100% !important;
+            font-size: 1.3rem !important;
+        }
+
+        .header1--p {
+            /* order: 1; */
+            flex-basis: 100% !important;
+            text-align: left !important;
+        }
+
+        .header2--h2 {
+            flex-basis: 100% !important;
+            font-size: 1.2rem !important;
+        }
+
+        .header2--p {
+            flex-basis: 100% !important;
+            text-align: left !important;
+            margin-bottom: 5px;
+        }
+
+        .header3--h3 {
+            flex-basis: 100% !important;
+        }
+
+        .header3--p {
+            flex-basis: 100% !important;
+            text-align: left !important;
+        }
+    }
+
 }
