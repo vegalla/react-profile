@@ -1,0 +1,29 @@
+.main {
+    border: dotted red;
+    width: 85%;
+    margin: auto;
+
+    .container {
+        border: dotted red;
+        margin: auto;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 100px 200px auto;
+        justify-content: center;
+        align-items: center;
+
+        .thumbnail {
+            border: dotted red;
+            max-width: 80px;
+            border-radius: 5px;
+        }
+
+        .label {
+            border: dotted red;
+        }
+        .description {
+            border: dotted red;
+            text-align: left;
+        }
+    }
+}

@@ -39,7 +39,8 @@
             /* border: dotted red; */
 
             font-size: 1.5em;
-            font-weight: bold;
+            /* font-weight: bold; */
+            font-style: italic;
             flex: 1 0 75%;
             text-align: left;
         }
@@ -86,7 +87,8 @@
                     /* border: dotted red; */
 
                     font-size: 1.2em;
-                    font-weight: bold;
+                    /* font-weight: bold; */
+                    font-style: italic;
                     flex: 1 0 75%;
                     text-align: left;
                 }

@@ -4,7 +4,7 @@ import { JOBS } from './JOBS';
 
 const JobDisplay = props => {
     return (
-        <div className={styles.main}>
+        <div key={props.organization} className={styles.main}>
             <div className={styles['header1--h1']}>
                 {props.organization}
             </div>
@@ -70,7 +70,6 @@ const JobTimeline = () => {
         <div className={styles.block}>
             {JOBS.map(job =>
                 <JobDisplay
-                    key={job.organization}
                     position={job.position}
                     startDate={job.startDate}
                     endDate={job.endDate}
