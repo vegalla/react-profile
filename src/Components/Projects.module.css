@@ -1,29 +1,63 @@
 .main {
-    border: dotted red;
+    /* border: dotted red; */
     width: 85%;
     margin: auto;
 
+    a {
+        text-decoration: none;
+    }
+
     .container {
-        border: dotted red;
+        /* border: dotted red; */
         margin: auto;
+        padding: 13px;
+        border-radius: 10px;
+        margin-bottom: 13px;
         width: 90%;
-        display: grid;
-        grid-template-columns: 100px 200px auto;
+        /* display: grid;
+        grid-template-columns: 1fr 1fr 4fr;
         justify-content: center;
         align-items: center;
+        grid-gap: 13px;
+        grid-row-gap: 21px; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 13px;
+        flex-wrap: wrap;
 
         .thumbnail {
-            border: dotted red;
+            /* border: dotted red; */
             max-width: 80px;
-            border-radius: 5px;
+            border-radius: 10px;
+
+            flex: 1 0 20%;
         }
 
         .label {
-            border: dotted red;
+            /* border: dotted red; */
+            /* text-align: left; */
+            font-weight:bold;
+            
+            flex: 1 0 20%;
         }
         .description {
-            border: dotted red;
+            /* border: dotted red; */
             text-align: left;
+
+            flex: 1 0 55%;
+        }
+    }
+    .container:hover {
+        background-color: lightsalmon;
+    }
+}
+
+@media screen and (max-width: 531px) {
+
+    .container {
+        .description{
+            margin-top: 13px;
         }
     }
 }
