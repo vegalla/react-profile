@@ -3,6 +3,7 @@
 
     .profile {
         /* background-color: yellow; */
+        /* border: dotted red; */
 
         display: flex;
         /* width: */
@@ -17,6 +18,8 @@
             /* border: dotted red; */
 
             text-align: left;
+            /* width: 85%; */
+            /* margin: auto; */
 
             h1 {
                 /* border: dotted red; */
@@ -37,6 +40,12 @@
 
                 margin: 0px;
                 font-size: 1.1em;
+            }
+
+            .skills {
+                /* border: dotted red; */
+                /* margin: auto; */
+                margin-top: 21px;
             }
 
         }
@@ -78,20 +87,28 @@
     .description {
         order: 2;
 
+        width: 85% !important;
+
         h1 {
             text-align: center;
         }
 
         h2 {
             text-align: center;
+            font-size: 0.7em !important;
         }
 
         h3 {
             text-align: center;
+            font-size: 0.7em !important;
         }
 
         p {
             text-align: center;
         }
+    }
+
+    .summary {
+        display: none;
     }
 }

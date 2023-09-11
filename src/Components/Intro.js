@@ -10,7 +10,7 @@ const Intro = () => {
                 <h1>Vince Egalla</h1>
                 <h2>Data Science | Cloud Development | Data Engineering</h2>
                 <h3>Wahoowa! Hoya Saxa!</h3>
-                <p>Skill Highlights</p>
+                <div className={styles.skills}>Skill Highlights</div>
                 <ul>
                     <li>AWS Cloud Development</li>
                     <li>Machine Learning with Python</li>
