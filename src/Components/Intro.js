@@ -25,7 +25,7 @@ const Intro = () => {
             </div>
             <div className={styles.summary}>
                 <p>
-                    Vince is an exceptionally qualified professional trained directly in best practices for cloud development by Amazon Web Services. Vince's colleagues describe him as a reliable, dedicated team member who delivers high-quality, exceptional work in all of his responsibilities. Vince works diligently to ensure excellence in his deliverables and executes with effieciency and coherence to materialize the strategic visions of the team and organization.
+                    Stemming from his family's history with the Navy, Vince is impassioned towards public interest techology and advancing modernization at all levels of government. Stories of IT modernization such as state unemployment websites with AWS to cases described by Hana Schank and Tara Dawson McGuinness' book <i>Power to the Public</i>, galvanize Vince towards continuous learning with technologies from machine learning to cloud development.
                 </p>
             </div>
         </div>

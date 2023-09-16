@@ -20,7 +20,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 function App() {
 
   return (
-    <ChakraProvider>
+    // <ChakraProvider>
       <div className={styles.App}>
         {/* <Suspense fallback={<Spinner />}> */}
           {/* <StatuePreview /> */}
@@ -34,7 +34,7 @@ function App() {
         </Container>
         <Projects />
       </div>
-    </ChakraProvider>
+    // </ChakraProvider>
   );
 }
 
