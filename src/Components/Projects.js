@@ -32,7 +32,7 @@ const Projects = () => {
                 // <Link to={proj.link}>
                 <a href={`https://vegalla.github.io${proj.link}`}>
                     <div key={proj.label} className={styles.container}>
-                        <img className={styles.thumbnail} src={require(`../Assets/Thumbnails/${proj.thumbnail}.png`)} alt="" />
+                        <img className={styles.thumbnail} src={require(`../Assets/Thumbnails/${proj.thumbnail}.png`)} alt="" loading="lazy"/>
                         <div className={styles.label}>{proj.label}</div>
                         <div className={styles.description}>{proj.description}</div>
                     </div>

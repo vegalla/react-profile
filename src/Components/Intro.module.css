@@ -56,13 +56,18 @@
             display: inline-block;
             margin: 13px;
 
+
             img {
                 /* margin-left: 21px; */
                 max-width: 300px;
 
-                border-radius: 10px;
+                object-fit: cover;
+                object-position: center;
 
+                border-radius: 10px;
                 box-shadow: 5px 5px 5px #778ba5;
+
+                /* opacity: 0; */
             }
         }
 
@@ -77,6 +82,24 @@
 
         background-color: rgba(0, 0, 0, 0.2);
     }
+}
+
+.blurLoad {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    min-height: 300px;
+    min-width: 300px
+    /* box-shadow: 5px 5px 5px #778ba5; */
+}
+
+.blurLoad.loaded {
+    opacity: 1;
+}
+
+.blurLoad > img {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
 }
 
 @media screen and (max-width: 531px) {
