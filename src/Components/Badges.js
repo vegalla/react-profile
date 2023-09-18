@@ -12,25 +12,25 @@ const BADGES = [
         image: badgeAssociateDeveloper,
         issueDate: "March 26, 2023",
         validation: "54E7BESC7B11QDW2",
-        alt:"Credly AWS Developer Associate Badge",
+        alt: "Credly AWS Developer Associate Badge",
     },
     {
         image: badgeAssociateSolutionsArchitect,
         issueDate: "August 26, 2022",
         validation: "6QEX30EC52411PG1",
-        alt:"Credly AWS Solutions Architect Associate Badge",
+        alt: "Credly AWS Solutions Architect Associate Badge",
     },
     {
         image: badgeSpecialtyDataAnalytics,
         issueDate: "June 30, 2023",
         validation: "2CEHYRS28J41QG5R",
-        alt:"Credly AWS Data Analytics Specialty Badge",
+        alt: "Credly AWS Data Analytics Specialty Badge",
     },
     {
         image: badgeSpecialtyMachineLearning,
         issueDate: "October 12, 2022",
         validation: "2E6SHLK2YFFE1T95",
-        alt:"Credly AWS Machine Learning Specialty Badge",
+        alt: "Credly AWS Machine Learning Specialty Badge",
     },
 
 ];
@@ -46,15 +46,21 @@ const Explainer = (issueDate, validation) => {
 
 const Badges = () => {
     return (
-        <div className={styles.main}>
-            {BADGES.map(badge => (
-                <span key={badge.validation} className={styles.badge}>
-                    <Tooltip tooltipContent={Explainer(badge.issueDate, badge.validation)}>
-                        <img src={badge.image} alt={badge.al} loading="lazy"/>
-                    </Tooltip>
-                </span>
-            ))}
-        </div>
+        <>
+            <div className={styles.main}>
+                {BADGES.map(badge => (
+                    <div key={badge.validation} className={styles.badge}>
+
+                        <svg width="100" height="100">
+                            <polygon points="40 3, 75 23, 75 63, 40 83, 5 63, 5 23"/>
+                        </svg>
+                        {/* <Tooltip tooltipContent={Explainer(badge.issueDate, badge.validation)}> */}
+                            <img src={badge.image} alt={badge.al} loading="lazy" />
+                        {/* </Tooltip> */}
+                    </div>
+                ))}
+            </div>
+        </>
     )
 };
 

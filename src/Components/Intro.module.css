@@ -21,6 +21,8 @@
             /* width: 85%; */
             /* margin: auto; */
 
+            animation: items-appear 800ms ease-out forwards;
+
             h1 {
                 /* border: dotted red; */
 
@@ -133,5 +135,17 @@
 
     .summary {
         display: none;
+    }
+}
+
+@keyframes items-appear {
+    from {
+        opacity: 0;
+        transform: translateY(5rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }

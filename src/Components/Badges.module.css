@@ -6,14 +6,47 @@
 
     .badge {
         /* border: dotted red; */
-        
         margin: 13px;
+
+        position: relative;
+        /* text-align: center; */
+
+
+        svg {
+            position: relative;
+            left: 50%;
+            top: 50%;
+            width: 80px;
+            transform: translateX(-50%) translateY(9%);
+
+            fill: white;
+            /* stroke: orange; */
+            /* stroke-width: 3px; */
+        }
+        /* svg:hover {
+            stroke: orange;
+            stroke-width: 2px;
+        } */
+
         img {
             /* border: dotted red; */
+            position: absolute;
+            left: 50%;
+            top: 50%;
             width: 80px;
+            transform: translateX(-50%) translateY(-50%);
         }
 
     }
+
+    .badge:hover > svg {
+        stroke: orange;
+        stroke-width: 3px;
+    }
+
+    /* .badge:hover {
+        box-shadow: 5px 5px orange;
+    } */
 }
 
 @media screen and (max-width: 531px) {
@@ -22,3 +55,6 @@
         margin: 13px 5px !important;
     }
 }
+
+
+
