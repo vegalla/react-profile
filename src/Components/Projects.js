@@ -7,7 +7,7 @@ const PROJECTS = [
         label: "Generative Art",
         description: "Art created with code using P5.js. Adapted from the work of thedotisblack",
         thumbnail: "01",
-        link: "/processing",
+        link: "/react-processing",
     },
     {
         label: "Graph Machine Learning",
