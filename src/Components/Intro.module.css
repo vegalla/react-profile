@@ -81,8 +81,13 @@
         margin: auto;
         padding: 13px;
         width: 80%;
+        color: white;
+        background-color: var(--taupe-gray);
 
-        background-color: rgba(0, 0, 0, 0.2);
+        a {
+            color: white;
+            text-decoration: none;
+        }
     }
 }
 
@@ -92,14 +97,14 @@
     border-radius: 10px;
     min-height: 300px;
     min-width: 300px
-    /* box-shadow: 5px 5px 5px #778ba5; */
+        /* box-shadow: 5px 5px 5px #778ba5; */
 }
 
 .blurLoad.loaded {
     opacity: 1;
 }
 
-.blurLoad > img {
+.blurLoad>img {
     opacity: 0;
     transition: opacity 200ms ease-in-out;
 }

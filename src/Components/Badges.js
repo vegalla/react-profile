@@ -5,8 +5,6 @@ import badgeAssociateSolutionsArchitect from '../Assets/Badges/associate-solutio
 import badgeSpecialtyDataAnalytics from '../Assets/Badges/specialty-data-analytics.png';
 import badgeSpecialtyMachineLearning from '../Assets/Badges/specialty-machine-learning.png';
 
-import Tooltip from '../UI/Tooltip';
-
 const BADGES = [
     {
         image: badgeAssociateDeveloper,
@@ -49,14 +47,11 @@ const Badges = () => {
         <>
             <div className={styles.main}>
                 {BADGES.map(badge => (
-                    <div key={badge.validation} className={styles.badge}>
-
+                    <div key={badge.validation} className={styles.badge} tooltip={badge.issueDate}>
                         <svg width="100" height="100">
-                            <polygon points="40 3, 75 23, 75 63, 40 83, 5 63, 5 23"/>
+                            <polygon points="40 3, 75 23, 75 63, 40 83, 5 63, 5 23" />
                         </svg>
-                        {/* <Tooltip tooltipContent={Explainer(badge.issueDate, badge.validation)}> */}
-                            <img src={badge.image} alt={badge.al} loading="lazy" />
-                        {/* </Tooltip> */}
+                        <img src={badge.image} alt={badge.al} loading="lazy" />
                     </div>
                 ))}
             </div>
