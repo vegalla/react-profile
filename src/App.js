@@ -6,6 +6,8 @@ import Education from './Components/Education';
 import JobTimeline from './Components/JobTimeline';
 import Projects from './Components/Projects';
 
+import ThreeCanvas from './Components/ThreeCanvas';
+
 import { Container } from '@chakra-ui/react';
 // import Statue from './Components/Statue';
 // import NoSsr from './Functions/NoSsr';
@@ -21,19 +23,21 @@ function App() {
 
   return (
     // <ChakraProvider>
-      <div className={styles.App}>
-        {/* <Suspense fallback={<Spinner />}> */}
-          {/* <StatuePreview /> */}
-        {/* </Suspense> */}
+    <div className={styles.App}>
+      {/* <Suspense fallback={<Spinner />}> */}
+      {/* <StatuePreview /> */}
+      {/* </Suspense> */}
+      <div id="background">
+        <ThreeCanvas />
+      </div>
+      <div id="content">
         <Intro />
         <Badges />
         <Education />
         <JobTimeline />
-        <Container maxW="container.md" pt={14}>
-
-        </Container>
         <Projects />
       </div>
+    </div>
     // </ChakraProvider>
   );
 }

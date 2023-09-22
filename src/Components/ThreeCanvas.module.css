@@ -1,0 +1,7 @@
+.myCanvas {
+    left: 0;
+    top: 0;
+    position: absolute;
+    max-width: 640;
+    max-height: 480;
+}
