@@ -1,5 +1,7 @@
 import styles from './App.module.css';
 
+import Navigation from './Components/Navigation';
+
 import Intro from './Components/Intro';
 import Badges from './Components/Badges';
 import Education from './Components/Education';
@@ -27,8 +29,11 @@ function App() {
       {/* <Suspense fallback={<Spinner />}> */}
       {/* <StatuePreview /> */}
       {/* </Suspense> */}
-      <div id="background">
-        <ThreeCanvas />
+      {/* <div id="background"> */}
+      {/* <ThreeCanvas /> */}
+      {/* </div> */}
+      <div id="navigation">
+        <Navigation />
       </div>
       <div id="content">
         <Intro />

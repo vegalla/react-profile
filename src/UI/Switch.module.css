@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    /* border: red dotted; */
+    /* width: 100%; */
+    /* height: 100%; */
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+
+    --height: 20px;
+    --scale: 0.2;
+}
+
+.check {
+    display: none;
+}
+
+.button {
+    background-color: darkblue;
+    width: calc(var(--height) * 2);
+    height: var(--height);
+    border-radius: calc(var(--height) * 2);
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+}
+
+.button::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: calc(var(--height) - var(--height)*var(--scale));
+    height: calc(var(--height) - var(--height)*var(--scale));
+    border-radius: calc(var(--height) * 2);
+    margin: calc(var(--height) * var(--scale)/2);
+    transition: 0.2s;
+    /* transform: translateX(var(--height)); */
+}
+
+input:checked+.button {
+    background-color: aliceblue;
+}
+
+input:checked+.button::before {
+    transform: translateX(calc(var(--height) * -1))
+}
