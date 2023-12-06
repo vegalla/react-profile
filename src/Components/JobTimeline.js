@@ -4,8 +4,6 @@ import { JOBS } from './JOBS';
 
 
 const JobDisplay = props => {
-
-
     // TODO: Add drop down functional for bullets on additional positions
 
     return (

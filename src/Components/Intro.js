@@ -14,6 +14,7 @@ const Intro = () => {
     //     // console.log(name);
     //     setLoading(false);
     // }
+    
     // TODO: Remove float up animation for mobile perspective
 
     return (
