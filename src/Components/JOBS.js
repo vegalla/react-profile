@@ -1,5 +1,16 @@
 export const JOBS = [
     {
+        organization: "Booz Allen Hamilton",
+        location: "Norfolk, VA",
+        postion: "Staff Data Engineer, Biga Data",
+        startDate: "Jul. 2023",
+        endDate: "Present",
+        bullets: [
+            "Productionizing data pipelines for Naval Reserve Force Command for personnel insights and analysis",
+            "Optimizing the Azure to AWS data pipeline while maintaing DoD security and privacy requirements"
+        ]
+    },
+    {
         organization: "Amazon Web Services",
         location: "Remote - VA",
         position: "Data & Machine Learning Engineer",

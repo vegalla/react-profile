@@ -18,6 +18,7 @@ const Intro = () => {
     return (
         <div className={styles.main}>
             <div className={styles.profile}>
+                // TODO: Remove float up animation for mobile perspective
                 <span className={styles.description}>
                     <h1>Vince Egalla</h1>
                     <h2>Data Science | Cloud Development | Data Engineering</h2>

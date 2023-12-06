@@ -22,6 +22,7 @@ const JobDisplay = props => {
                     {props.bullets.map(bullet => <li>{bullet}</li>)}
                 </ul>
             </div>
+            // TODO: Add drop down functional for bullets on additional positions
             {props.additional_positions &&
                 <div className={styles.additional}>
                     {props.additional_positions.map(pos => (
