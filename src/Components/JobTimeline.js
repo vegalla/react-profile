@@ -2,7 +2,12 @@ import styles from './JobTimeline.module.css';
 
 import { JOBS } from './JOBS';
 
+
 const JobDisplay = props => {
+
+
+    // TODO: Add drop down functional for bullets on additional positions
+
     return (
         <div key={props.organization} className={styles.main}>
             <div className={styles['header1--h1']}>
@@ -22,7 +27,6 @@ const JobDisplay = props => {
                     {props.bullets.map(bullet => <li>{bullet}</li>)}
                 </ul>
             </div>
-            // TODO: Add drop down functional for bullets on additional positions
             {props.additional_positions &&
                 <div className={styles.additional}>
                     {props.additional_positions.map(pos => (

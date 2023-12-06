@@ -14,11 +14,11 @@ const Intro = () => {
     //     // console.log(name);
     //     setLoading(false);
     // }
+    // TODO: Remove float up animation for mobile perspective
 
     return (
         <div className={styles.main}>
             <div className={styles.profile}>
-                // TODO: Remove float up animation for mobile perspective
                 <span className={styles.description}>
                     <h1>Vince Egalla</h1>
                     <h2>Data Science | Cloud Development | Data Engineering</h2>
@@ -33,8 +33,8 @@ const Intro = () => {
                     </ul>
                 </span>
                 <span className={styles.picture}>
-                    <div className={styles.blurLoad} style={{ backgroundImage: `url(${imgProfilePictureSm}`,}}>
-                        <img src={imgProfilePicture} alt="" loading="lazy" onLoad={() => setLoading(false)} style={{opacity: loading ? "0" : "1"}}/>
+                    <div className={styles.blurLoad} style={{ backgroundImage: `url(${imgProfilePictureSm}`, }}>
+                        <img src={imgProfilePicture} alt="" loading="lazy" onLoad={() => setLoading(false)} style={{ opacity: loading ? "0" : "1" }} />
                     </div>
                 </span>
             </div>
