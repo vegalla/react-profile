@@ -6,8 +6,9 @@ export const JOBS = [
         startDate: "Jul. 2023",
         endDate: "Present",
         bullets: [
-            "Productionizing data pipelines for Naval Reserve Force Command for personnel insights and analysis",
-            "Optimizing the Azure to AWS data pipeline while maintaing DoD security and privacy requirements"
+            "Leading product development of business intelligence applicaiton for the Chief of Navy Reserve",  
+            "Supporting analytics and data engineering for $3 million contract with Force Data and AI Office at Navy Reserve",
+            "Developing solutions for data connections between Navy's Azure environment and AWS analytics platform"
         ]
     },
     {
@@ -17,10 +18,11 @@ export const JOBS = [
         startDate: "Jul. 2022",
         endDate: "Jun. 2023",
         bullets: [
-            "Developed serverless intelligent document processing system for identity validation proof-of-concept",
+            "Developed serverless intelligent document processing system for identity validation proof-of-concept for state agency",
             "Supported front end development of cloud-based video call with live transcription service for federal agency",
-            "Refactored React front end for AWS data aggregation application and continued feature development",
-            "Configured AWS SageMaker pipeline definition for client’s model deployment pipeline requiring Jenkins",
+            "Refactored React UI for AWS data lake house platform, Atomix, using best practices to relieve technical debt",
+            "Performed integration testing of new UI features with Atomix’s back-end data architecture team"
+
         ],
         additional_positions: [
             {
@@ -38,7 +40,8 @@ export const JOBS = [
         endDate: "Dec. 2021",
         bullets: [
             "Operated as General Services Administration Office of Evaluation Services Data Fellow",
-            "Analyzed the effect of city distributions of COVID-19 relief funds on business bankruptcies and store closure",
+            "Analyzed the effect of $17 million COVID relief distribution on business bankruptcies in San Diego",
+            "Built custom web scraper for Google and Yelp business searches using Python to enhance analysis data"
         ],
         additional_positions: [
             {
