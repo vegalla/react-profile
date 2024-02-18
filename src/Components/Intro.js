@@ -15,6 +15,7 @@ const Intro = () => {
     //     setLoading(false);
     // }
     
+
     // TODO: Remove float up animation for mobile perspective
 
     return (
@@ -41,7 +42,7 @@ const Intro = () => {
             </div>
             <div className={styles.summary}>
                 <p>
-                    Stemming from his family's history with the Navy, Vince is impassioned towards public interest techology and advancing modernization at all levels of government. Stories of IT modernization, such as <a href="https://aws.amazon.com/blogs/publicsector/helping-agencies-improve-customer-experience-benefits-eligibility-enrollment/">taking state unemployment services online with AWS cloud services</a> and cases described by <a href="https://www.newamerica.org/pit/power-to-the-public-the-promise-of-public-interest-technology/">Hana Schank and Tara Dawson McGuinness' book <i>Power to the Public</i></a>, galvanize Vince towards continuous learning with technologies from machine learning to cloud development.
+                    Stemming from his family's history with the Navy, Vince is impassioned towards public interest techology and advancing tech modernization at all levels of government. Stories of IT modernization, such as <a href="https://aws.amazon.com/blogs/publicsector/helping-agencies-improve-customer-experience-benefits-eligibility-enrollment/">taking state unemployment services online with AWS cloud services</a> and cases described by <a href="https://www.newamerica.org/pit/power-to-the-public-the-promise-of-public-interest-technology/">Hana Schank and Tara Dawson McGuinness' book <i>Power to the Public</i></a>, galvanize Vince towards continuous learning with technologies from machine learning to cloud development.
                 </p>
             </div>
         </div>

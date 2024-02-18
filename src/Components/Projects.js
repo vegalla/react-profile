@@ -28,17 +28,19 @@ const Projects = () => {
     return (
         <div className={styles.main}>
             <h1>Coding Projects</h1>
-            {PROJECTS.map(proj =>
-                // <Link to={proj.link}>
-                <a href={`https://vegalla.github.io${proj.link}`}>
-                    <div key={proj.label} className={styles.container}>
-                        <img className={styles.thumbnail} src={require(`../Assets/Thumbnails/${proj.thumbnail}.png`)} alt="" loading="lazy"/>
-                        <div className={styles.label}>{proj.label}</div>
-                        <div className={styles.description}>{proj.description}</div>
-                    </div>
-                </a>
-                // </Link>
-            )}
+            <div className={styles.projectContainer}>
+                {PROJECTS.map(proj =>
+                    // <Link to={proj.link}>
+                    <a href={`https://vegalla.github.io${proj.link}`}>
+                        <div key={proj.label} className={styles.project}>
+                            <img className={styles.thumbnail} src={require(`../Assets/Thumbnails/${proj.thumbnail}.png`)} alt="" loading="lazy"/>
+                            <div className={styles.label}>{proj.label}</div>
+                            <div className={styles.description}>{proj.description}</div>
+                        </div>
+                    </a>
+                    // </Link>
+                )}
+            </div>
         </div>
     );
 };

@@ -41,14 +41,14 @@
             font-size: 1.3em;
             /* font-weight: bold; */
             font-style: italic;
-            flex: 1 0 75%;
+            flex: 1 0 60%;
             text-align: left;
         }
 
         .header2--p {
             /* border: dotted red; */
 
-            flex: 1 0 20%;
+            flex: 1 0 35%;
             text-align: right;
         }
 
@@ -90,13 +90,13 @@
                     font-size: 1.2em;
                     /* font-weight: bold; */
                     font-style: italic;
-                    flex: 1 0 75%;
+                    flex: 1 0 60%;
                     text-align: left;
                 }
 
                 .header3--p {
                     /* border: dotted red; */
-                    flex: 1 0 20%;
+                    flex: 1 0 35%;
                     text-align: right;
                 }
             }

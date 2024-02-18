@@ -7,7 +7,11 @@
         text-decoration: none;
     }
 
-    .container {
+    .projectContainer {
+        padding-top: 13px;
+    }
+
+    .project {
         /* border: dotted red; */
         margin: auto;
         padding: 13px;
@@ -45,17 +49,17 @@
             /* border: dotted red; */
             text-align: left;
 
-            flex: 1 0 55%;
+            flex: 1 0 50%;
         }
     }
-    .container:hover {
+    .project:hover {
         background-color: lightsalmon;
     }
 }
 
 @media screen and (max-width: 531px) {
 
-    .container {
+    .project {
         .description{
             margin-top: 13px;
         }

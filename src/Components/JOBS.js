@@ -2,7 +2,7 @@ export const JOBS = [
     {
         organization: "Booz Allen Hamilton",
         location: "Norfolk, VA",
-        postion: "Staff Data Engineer, Biga Data",
+        position: "Staff Data Engineer, Big Data",
         startDate: "Jul. 2023",
         endDate: "Present",
         bullets: [
@@ -60,7 +60,7 @@ export const JOBS = [
     {
         organization: "Resolution Economics",
         location: "Washington, DC",
-        position: "Consultant",
+        position: "Senior Consultant",
         startDate: "Aug. 2019",
         endDate: "Aug. 2020",
         bullets: [
@@ -71,7 +71,7 @@ export const JOBS = [
         ],
         additional_positions: [
             {
-                position: "Analyst",
+                position: "Consultant",
                 startDate: "May 2018",
                 endDate: "Aug. 2019"
 
@@ -86,11 +86,11 @@ export const JOBS = [
     {
         organization: "Headquarters of the Department of the Army",
         location: "Washington, DC",
-        position: "Assistant Budget Analyst for G-8 Focused Logistics",
+        position: "Assistant Budget Analyst",
         startDate: "Jun. 2016",
         endDate: "Aug. 2016",
         bullets: [
-            "Analyzed program documentation for budget analysis against long range investments",
+            "Analyzed G-8 Focused Logistics documentation for budget analysis against long range investments",
         ],
     },
 ]

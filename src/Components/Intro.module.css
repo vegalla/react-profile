@@ -86,11 +86,21 @@
         padding: 13px;
         width: 80%;
         color: white;
-        background-color: var(--taupe-gray);
+        background-color: #333333;
+
+        p {
+            color: white;
+        }
 
         a {
             color: white;
             text-decoration: none;
+        }
+    }
+
+    .summary:hover {
+        a {
+            color: lightblue;
         }
     }
 }
